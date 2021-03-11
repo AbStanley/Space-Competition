@@ -1,0 +1,95 @@
+#Field div {
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+#Instruction {
+  color: #CF440A;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+
+}
+header {
+  color: #33105E;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 58px;
+}
+
+body {
+  background-color: #f6f1ed;
+}
+
+#RaceBtn, #CancelBtn, #PlayAgain, #Save {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+#RaceBtn, #CancelBtn  {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#RaceBtn:hover, #CancelBtn:hover, #PlayAgain:hover, , #Save:hover  {
+  padding-right: 55px;
+  background-color: #FFC10D;
+}
+
+#RaceBtn:hover :after, #CancelBtn:hover after, #PlayAgain:hover after, #Save:hover after {
+  opacity: 1;
+  right: 0;
+}
+
+#PickButton, #Save{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.9;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#PickButton:hover, #Save:hover{
+  opacity: 1;
+  background-color: #4CAF50;
+}
+
+#TextLines {
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+}
+
+#TextLines:focus {
+  border: 2px solid skyblue;
+    transition: 0.3s;
+}
+
+
+player {
+  color: #C40045;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 20px;
+font-weight: 300;
+}
